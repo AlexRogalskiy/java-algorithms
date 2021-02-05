@@ -43,16 +43,16 @@ The following algorithms are examples of internal sorting algorithms:
 ## Conclusion
 Sorting algorithms are common in introductory computer science classes. Sorting Algorithms provides an introduction to core algorithms concepts such as Big O notation, data structures and understanding algorithm complexity in context of time and space.
 
-[0]: https://www.code2bits.com/bubble-sort-algorithm-in-java/
+[0]: https://www.javanibble.com/bubble-sort-algorithm-in-java/
 [1]: #
-[2]: https://www.code2bits.com/counting-sort-in-java/
+[2]: https://www.javanibble.com/counting-sort-in-java/
 [3]: #
 [4]: #
-[5]: https://www.code2bits.com/insertion-sort-algorithm-in-java/
-[6]: https://www.code2bits.com/merge-sort-algorithm-in-java/
-[7]: https://www.code2bits.com/quick-sort-algorithm-in-java/
+[5]: https://www.javanibble.com/insertion-sort-algorithm-in-java/
+[6]: https://www.javanibble.com/merge-sort-algorithm-in-java/
+[7]: https://www.javanibble.com/quick-sort-algorithm-in-java/
 [8]: #
-[9]: https://www.code2bits.com/selection-sort-algorithm-in-java/
-[10]: https://www.code2bits.com/shell-sort-algorithm-in-java/
+[9]: https://www.javanibble.com/selection-sort-algorithm-in-java/
+[10]: https://www.javanibble.com/shell-sort-algorithm-in-java/
 [11]: #
 [12]: #
