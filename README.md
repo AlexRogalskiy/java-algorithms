@@ -11,6 +11,6 @@ This repository contains a number of the well known algorithms implemented in th
 
 ## License
 
-Copyright © 2018 André Maré
+Copyright © 2018
 
 The code in this repository is MIT licensed, and therefore free to use as you please for commercial or non-commercial purposes (see [LICENSE](LICENSE) for details).
