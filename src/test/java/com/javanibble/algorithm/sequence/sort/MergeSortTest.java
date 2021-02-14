@@ -1,34 +1,33 @@
-package com.javanibble.algorithm.sort;
-
+package com.javanibble.algorithm.sequence.sort;
 
 import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
 
+import com.javanibble.algorithm.sequence.sort.MergeSort;
 import org.junit.Test;
 
-
 /**
- * The BubbleSortTest class forms part of the Test Driven Development approach to test the BubbleSort class.
+ * The MergeSortTest class forms part of the Test Driven Development approach to test the MergeSort class.
  */
-public class BubbleSortTest {
+public class MergeSortTest {
 
-	
+    
     @Test(expected = IllegalArgumentException.class)
-    public void testBubbleSortNull() {
+    public void testMergeSortNull() {
         int[] unsortedArray = null;
-        new BubbleSort().sort(unsortedArray);
+        new MergeSort().sort(unsortedArray);
     } 
  
     
     @Test
-    public void testBubbleSort() {
+    public void testMergeSort() {
         int input[] = new int[]{6,1,7,9,3,8,2,5,4,0};
         int sorted[] = {0,1,2,3,4,5,6,7,8,9};
-        BubbleSort sort = new BubbleSort();
+        MergeSort sort = new MergeSort();
         sort.sort(input);
 
         assertEquals(true, Arrays.equals(input, sorted));
     }
-	
+    
 }

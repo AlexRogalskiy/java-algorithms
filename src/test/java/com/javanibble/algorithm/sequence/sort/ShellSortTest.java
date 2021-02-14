@@ -1,35 +1,35 @@
-package com.javanibble.algorithm.sort;
+package com.javanibble.algorithm.sequence.sort;
 
 
 import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
 
+import com.javanibble.algorithm.sequence.sort.ShellSort;
 import org.junit.Test;
 
 
 /**
- * The CountingSortTest class forms part of the Test Driven Development approach to test the CountingSort 
- * class.
+ * The ShellSortTest class forms part of the Test Driven Development approach to test the ShellSort class.
  */
-public class CountingSortTest {
-
+public class ShellSortTest {
+    
     
     @Test(expected = IllegalArgumentException.class)
-    public void testCountingSortNull() {
+    public void testShellSortNull() {
         int[] unsortedArray = null;
-        new CountingSort().sort(unsortedArray);
+        new ShellSort().sort(unsortedArray);
     } 
  
-    
     @Test
-    public void testCountingSort() {
+    public void testShellSort() {
         int input[] = new int[]{6,1,7,9,3,8,2,5,4,0};
         int sorted[] = {0,1,2,3,4,5,6,7,8,9};
-        CountingSort sort = new CountingSort();
+        ShellSort sort = new ShellSort();
         sort.sort(input);
 
         assertEquals(true, Arrays.equals(input, sorted));
     }
     
+
 }

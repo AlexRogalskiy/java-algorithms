@@ -1,10 +1,11 @@
-package com.javanibble.algorithm.sort;
+package com.javanibble.algorithm.sequence.sort;
 
 
 import static org.junit.Assert.assertEquals;
 
 import java.util.Arrays;
 
+import com.javanibble.algorithm.sequence.sort.BubbleSortRecursive;
 import org.junit.Test;
 
 

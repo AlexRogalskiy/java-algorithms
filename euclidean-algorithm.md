@@ -28,3 +28,5 @@ The Bucket Sort class implements the Bucket Sort algorithm for sorting an array 
 [0]: https://en.wikipedia.org/wiki/Euclidean_algorithm
 [1]: #
 [2]: #
+
+https://en.wikipedia.org/wiki/List_of_algorithms#Sequence_algorithms

@@ -1,4 +1,4 @@
-package com.javanibble.algorithm.sort;
+package com.javanibble.algorithm.sequence.sort;
 
 
 /**

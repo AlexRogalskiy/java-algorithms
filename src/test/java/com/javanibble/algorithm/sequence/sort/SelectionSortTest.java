@@ -1,10 +1,11 @@
-package com.javanibble.algorithm.sort;
+package com.javanibble.algorithm.sequence.sort;
 
 
 import java.util.Arrays;
 import static org.junit.Assert.assertEquals;
 
 
+import com.javanibble.algorithm.sequence.sort.SelectionSort;
 import org.junit.Test;
 
 
