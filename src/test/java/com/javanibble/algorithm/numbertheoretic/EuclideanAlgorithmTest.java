@@ -1,4 +1,4 @@
-package com.javanibble.algorithm;
+package com.javanibble.algorithm.numbertheoretic;
 
 import org.junit.Assert;
 import org.junit.Before;
